@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="container page-header">
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="intro">
+        <div class="container main">
+            <div class="profile-img">
+                <img class="images img-w" src="https://t4.ftcdn.net/jpg/06/98/13/79/360_F_698137979_1m3HCrBAG9padbzDKeFgr7YzKzeTcROQ.jpg" alt="Profile Image">
+            </div>
+            <div class="profile-info">
+                <h3>Hi, I'm</h3>
+                <h1><span class="name">Pavan Gowda</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis illo pariatur voluptate sunt,
+                    minima veritatis ipsum a maiores necessitatibus, nam maxime aspernatur iusto quas aliquid
+                    voluptatem, in quaerat molestias. Repellat.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container about">
+            <div class="about-content">
+                <div class="about-box">
+                    <div class="about-icon">
+                        <i class='bx bx-code-block'></i>
+                    </div>
+                    <div class="about-info">
+                        <h3>Software Developer</h3>
+                        <p>I have a deep passion for creating software solutions that solve real-world problems. With a
+                            strong background in various programming languages and frameworks, I aim to build efficient
+                            and scalable applications.</p>
+                    </div>
+                </div>
+                <div class="about-box">
+                    <div class="about-icon">
+                        <i class='bx bx-chalkboard'></i>
+                    </div>
+                    <div class="about-info">
+                        <h3>Technical Trainer</h3>
+                        <p>As a technical trainer, I enjoy sharing my knowledge and helping others to improve their
+                            skills. I have experience in conducting workshops and training sessions on various software
+                            development topics.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project" class="project-section">
+        <div class="container project">
+            <div class="parent project">
+                <div class="child project">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2020/9/HI/PO/EE/6668018/e-commerce-solutions-500x500.jpg"
+                    height="250px" width="100%">
+                   <div class="child-heading">
+                    <h3>E-commerce Project</h3>
+                   </div>
+                   <div class="child-button">
+                     <button>View Project</button>
+                   </div>
+                </div>
+                <div class="child project">
+                    <img src="https://blogimages.softwaresuggest.com/blog/wp-content/uploads/2020/04/31185614/12-Benefits-of-Student-Database-Management-System.jpg
+                    "
+                    height="250px" width="100%">
+                   <div class="child-heading">
+                    <h3>Student Management System Project</h3>
+                   </div>
+                   <div class="child-button">
+                     <button>View Project</button>
+                   </div>
+                </div>
+                <div class="child project">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ctfxVObLK_EDdPXL-V4S8KnRwLFe3a5KBw&s"
+                    "
+                    height="250px" width="100%">
+                   <div class="child-heading">
+                    <h3>Empolyee Management System Project</h3>
+                   </div>
+                   <div class="child-button">
+                     <button>View Project</button>
+                   </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact">
+            <div class="contact-content">
+                <a href="mailto:suhas@pentagonspace.in">
+                    <i class="fas fa-envelope"></i> pavan.s@pentagonspace.in
+                </a>
+            </div>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/pavan-s-888370252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="https://www.instagram.com/pavangowda_09/" target="_blank">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+                <a href="https://github.com/Pavan7355" target="_blank">
+                    <i class="bx bxl-github"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
